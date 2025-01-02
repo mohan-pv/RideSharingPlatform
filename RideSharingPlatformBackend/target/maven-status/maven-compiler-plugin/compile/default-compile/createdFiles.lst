@@ -1,0 +1,14 @@
+com/rideshare/util/StringConstants.class
+com/rideshare/action/LoginAction.class
+com/rideshare/util/DBConnection.class
+com/rideshare/util/QueryStrings.class
+com/rideshare/model/User.class
+com/rideshare/service/PassengerService.class
+com/rideshare/dao/PassengerDAO.class
+com/rideshare/dao/RiderDAO.class
+com/rideshare/entities/PassengerEntity.class
+com/rideshare/service/UserService.class
+com/rideshare/entities/RiderEntity.class
+com/rideshare/action/SignupAction.class
+com/rideshare/service/RiderService.class
+com/rideshare/dao/UserDAO.class

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN" "struts-2.5.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+		<!-- Index -->
+		<action name="index">
+			<result>/WEB-INF/jsp/index.jsp</result>
+		</action>
+
+		<!-- Signup -->
+		<action name="signup" class="com.rideshare.action.SignupAction">
+			<result name="success">/WEB-INF/jsp/homePageRider.jsp</result>
+			<result name="error">/WEB-INF/jsp/error.jsp</result>
+		</action>
+
+		<!-- Login -->
+		<action name="loginAction" class="com.rideshare.action.LoginAction">
+			<result name="success">/WEB-INF/jsp/homePageRider.jsp</result>
+			<result name="error">/WEB-INF/jsp/error.jsp</result>
+		</action>
+
+		<!-- Display Signup Page -->
+		<action name="showSignup">
+			<result>/WEB-INF/jsp/signup.jsp</result>
+		</action>
+
+		<!-- Display Login Page -->
+		<action name="showLogin">
+			<result>/WEB-INF/jsp/login.jsp</result>
+		</action>
+
+
+	</package>
+</struts>
